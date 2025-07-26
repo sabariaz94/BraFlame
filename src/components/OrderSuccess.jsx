@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { client } from '@/sanity/lib/client';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import { client } from '../sanity/lib/client';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
